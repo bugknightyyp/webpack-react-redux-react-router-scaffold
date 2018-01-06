@@ -1,0 +1,29 @@
+{
+  "name": "webpack-react-redux-react-router-scaffold",
+  "version": "1.0.0",
+  "description": "scaffold for create SPA base on webpack/react/redux/redux-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugknightyyp/webpack-react-redux-react-router-scaffold.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugknightyyp/webpack-react-redux-react-router-scaffold/issues"
+  },
+  "homepage": "https://github.com/bugknightyyp/webpack-react-redux-react-router-scaffold#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
