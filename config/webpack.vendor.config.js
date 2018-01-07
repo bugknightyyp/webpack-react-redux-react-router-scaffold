@@ -4,8 +4,9 @@
  * 
  * 
  *  http://blog.csdn.net/mjzhang1993/article/details/64440148
- *  https://github.com/zzlw/webpack-dev-super上海
+ *  https://github.com/zzlw/webpack-dev-super
  *
+ * https://codeburst.io/how-to-lazy-load-features-using-react-and-webpack-557f559ccde7
  */
 const path = require('path');
 const webpack = require('webpack')
