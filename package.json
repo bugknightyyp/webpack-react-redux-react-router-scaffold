@@ -4,7 +4,9 @@
   "description": "scaffold for create SPA base on webpack/react/redux/redux-router",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test",
+    "build": "node_modules/.bin/webpack  --config webpack.config.js -p ",
+    "dev": "node_modules/.bin/webpack-dev-server --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,13 @@
     "redux": "^3.7.2"
   },
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "css-loader": "^0.28.8",
+    "html-webpack-plugin": "^2.30.1",
+    "less-loader": "^4.0.5",
+    "postcss-loader": "^2.0.10",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.0"
   }
 }

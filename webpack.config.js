@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const prod = process.argv.indexOf('-p') !== -1;
 
 
-let packages = require(path.resolve(__dirname, '../package.json'))
+let packages = require(path.resolve(__dirname, 'package.json'))
 
 
 let config = {
@@ -138,7 +138,7 @@ let config = {
     }),
     new webpack.DllReferencePlugin({
 			context: path.join(__dirname, "..", "dll"),
-			manifest: require("../dll/vendor-manifest.json") // eslint-disable-line
+			manifest: require("./dll/vendor-manifest.json") // eslint-disable-line
 		}),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
